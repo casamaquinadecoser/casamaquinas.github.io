@@ -159,3 +159,21 @@ footer {
 .caracteristicas li {
   margin-bottom: 5px;
 }
+.marca {
+  margin-bottom: 60px;
+}
+
+.marca h2 {
+  color: #072a3f;
+  border-bottom: 4px solid #072a3f;
+  padding-bottom: 6px;
+}
+
+.marca h3 {
+  margin-top: 25px;
+  color: #0b3c5d;
+}
+
+.modelo h4 {
+  margin-bottom: 5px;
+}
