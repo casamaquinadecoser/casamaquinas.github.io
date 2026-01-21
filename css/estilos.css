@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #0b3c5d;
+  color: #fff;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* NAV */
+nav {
+  background: #072a3f;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: #0b3c5d;
+}
+
+/* HERO */
+.hero {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* BOTONES */
+.btn {
+  display: inline-block;
+  background: #25d366;
+  color: #fff;
+  padding: 14px 22px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #1ebd5a;
+}
+
+/* SECCIONES */
+section {
+  background: #fff;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+section h3 {
+  margin-top: 0;
+  color: #0b3c5d;
+}
+
+/* GRID CATÁLOGO */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #072a3f;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+}
