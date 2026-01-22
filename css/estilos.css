@@ -54,12 +54,11 @@ header {
 }
 
 /* FOOTER */
-.footer {
+footer {
   background: #072a3f;
   color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 40px;
 }
 @media (max-width: 768px) {
   .logo img {
