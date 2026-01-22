@@ -12,8 +12,8 @@ body {
 
 /* HEADER */
 header {
-  background: linear-gradient(90deg, #072a3f, #0b4a6f);
-  padding: 12px 24px;
+  background: #0b3c5d;
+  padding: 15px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,10 +21,9 @@ header {
 
 /* Caja blanca del logo */
 .logo-box {
-  background: white;
-  padding: 12px 18px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.22);
+  background: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
 .logo-box img {
@@ -33,11 +32,10 @@ header {
 
 /* Navegación */
 .nav a {
-  color: #ffffff;
-  margin-left: 24px;
+  color: white;
+  margin-left: 20px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
 }
 
 .nav a:hover {
