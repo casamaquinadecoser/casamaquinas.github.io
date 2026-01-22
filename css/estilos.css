@@ -6,9 +6,9 @@ body {
 }
 
 /* HEADER */
-.header {
-  background: #072a3f;
-  padding: 15px 30px;
+header {
+  background: linear-gradient(90deg, #072a3f, #0b4a6f);
+  padding: 12px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
