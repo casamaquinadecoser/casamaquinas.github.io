@@ -66,3 +66,9 @@ header {
     height: 70px;
   }
 }
+/* CONTENEDOR GENERAL */
+.site {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+}
