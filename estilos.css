@@ -175,3 +175,19 @@
     width: 100%;
     height: auto;
 }
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    background-color: #25D366;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebd5a;
+}
